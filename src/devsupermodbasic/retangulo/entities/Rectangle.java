@@ -1,4 +1,4 @@
-package devsupermodbasic.entities;
+package devsupermodbasic.retangulo.entities;
 
 public class Rectangle {
 

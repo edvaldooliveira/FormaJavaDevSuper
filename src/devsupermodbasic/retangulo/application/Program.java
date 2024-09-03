@@ -1,10 +1,9 @@
-package devsupermodbasic.application;
+package devsupermodbasic.retangulo.application;
 
 
 
-import devsupermodbasic.entities.Rectangle;
+import devsupermodbasic.retangulo.entities.Rectangle;
 
-import java.awt.*;
 import java.util.Locale;
 import java.util.Scanner;
 
