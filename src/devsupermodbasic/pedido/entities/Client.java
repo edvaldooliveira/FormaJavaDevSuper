@@ -1,8 +1,11 @@
 package devsupermodbasic.pedido.entities;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Client {
+
+    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private String name;
     private String email;
     private Date birthDate; //data de nascimento
@@ -35,4 +38,8 @@ public class Client {
         this.birthDate = birthDate;
     }
 
+    @Override
+    public String toString() {
+        return name + " (" + sdf.format(birthDate) + ") - " + email;
+    }
 }

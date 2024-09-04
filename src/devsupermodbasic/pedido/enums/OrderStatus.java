@@ -1,6 +1,6 @@
 package devsupermodbasic.pedido.enums;
 
-public enum Enums {
+public enum OrderStatus {
     PENDING_PAYMENT,
     PROCESSING,
     SHIPPED,
