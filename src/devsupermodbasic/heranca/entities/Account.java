@@ -2,8 +2,8 @@ package devsupermodbasic.heranca.entities;
 
 public class Account {
     private Integer number;
-    private String holder; //titular 
-    private double balance;
+    private String holder; //titular
+    protected double balance;
 
     public Account(){
     }
