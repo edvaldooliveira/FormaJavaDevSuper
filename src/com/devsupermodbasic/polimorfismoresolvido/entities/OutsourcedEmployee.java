@@ -1,4 +1,4 @@
-package com.devsupermodbasic.exresolvidopolimorfismo.entities;
+package com.devsupermodbasic.polimorfismoresolvido.entities;
 
 public class OutsourcedEmployee extends Employee {
 
