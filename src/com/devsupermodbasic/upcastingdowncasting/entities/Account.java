@@ -34,7 +34,7 @@ public class Account {
         return balance;
     }
 
-    public void withdraw(double amount){ //Retirar
+    public final void withdraw(double amount){ //Retirar
         balance -= amount + 5.0;
     }
 
