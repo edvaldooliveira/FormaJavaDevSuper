@@ -10,6 +10,7 @@ public class Lucro {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+         //Vetores
         int n, abaixo, entre, acima;
         double vtotalcompra, vtotalvenda, lucrototal;
 
