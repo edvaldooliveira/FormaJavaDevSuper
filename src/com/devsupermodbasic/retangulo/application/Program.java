@@ -14,6 +14,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         Rectangle rect = new Rectangle();
 
+        //Entrada de dados
         System.out.println("Entre com a largura e altura do retângulo:");
         rect.width = sc.nextDouble();
         rect.height = sc.nextDouble();
