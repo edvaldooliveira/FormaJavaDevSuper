@@ -1,11 +1,10 @@
-package com.devsupermodbasic.composition.application;
+package com.devsuperpoo.composition.application;
 
-import com.devsupermodbasic.composition.entities.Client;
-import com.devsupermodbasic.composition.entities.Order;
-import com.devsupermodbasic.composition.entities.OrderItem;
-import com.devsupermodbasic.composition.entities.Product;
-import com.devsupermodbasic.composition.enums.OrderStatus;
-
+import com.devsuperpoo.composition.entities.Client;
+import com.devsuperpoo.composition.entities.Order;
+import com.devsuperpoo.composition.entities.OrderItem;
+import com.devsuperpoo.composition.entities.Product;
+import com.devsuperpoo.composition.enums.OrderStatus;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -14,7 +13,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
-
     public static void main(String[] args) throws ParseException {
 
         Locale.setDefault(Locale.US);
