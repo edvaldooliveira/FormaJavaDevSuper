@@ -3,7 +3,8 @@ package com.devsuperpoo.classesabstratas.entities;
 public class Account {
     private Integer number;
     private String holder;
-    private Double balance;
+
+    protected Double balance;
 
     public Account(){
     }
@@ -30,6 +31,13 @@ public class Account {
     }
     public void setBalance(Double balance){
         this.balance = balance;
+    }
+    public void deposit(Double amount){
+        balance += amount;
+    }
+
+    public void withdraw(Double amount){
+        balance -= amount + 5.0;
     }
 
 }
