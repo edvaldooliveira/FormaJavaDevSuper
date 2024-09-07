@@ -63,6 +63,7 @@ public class Lucro {
 
         lucrototal = vtotalvenda - vtotalcompra;
 
+        //Relatórios
         System.out.println("\nRELATORIO:");
         System.out.printf("Lucro abaixo de 10%%: %d\n", abaixo);
         System.out.printf("Lucro entre 10%% e 20%%: %d\n", entre);
