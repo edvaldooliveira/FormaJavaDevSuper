@@ -1,24 +1,26 @@
 package com.devsuperpoo.metodosabstratos.entities;
 
-import java.awt.*;
+import com.devsuperpoo.metodosabstratos.entities.enums.Color;
 
 public abstract class Shape {
-    private Color color;
 
-    public Shape() {
-    }
+	private Color color;
+	
+	public Shape() {
+	}
+	
+	public Shape(Color color) {
+		this.color = color;
+	}
 
-    public Shape(Color color) {
-        this.color = color;
-    }
+	public Color getColor() {
+		return color;
+	}
 
-    public Color getColor() {
-        return color;
-    }
+	public void setColor(Color color) {
+		this.color = color;
+	}
+	
+	public abstract double area();
 
-    public void setColor(Color color) {
-        this.color = color;
-    }
-
-    public abstract double area();
 }
