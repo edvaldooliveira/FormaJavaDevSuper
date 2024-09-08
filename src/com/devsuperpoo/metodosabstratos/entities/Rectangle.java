@@ -1,6 +1,5 @@
 package com.devsuperpoo.metodosabstratos.entities;
 
-
 import com.devsuperpoo.metodosabstratos.entities.enums.Color;
 
 public class Rectangle extends Shape {
