@@ -1,4 +1,4 @@
-package com.devsuperpoo.reservahotel.model.exceptions;
+package com.devsuperpoo.excecoespersonalizadas.model.exceptions;
 
 
 public class DomainException extends RuntimeException {

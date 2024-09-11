@@ -1,7 +1,7 @@
-package com.devsuperpoo.reservahotel.application;
+package com.devsuperpoo.excecoespersonalizadas.application;
 
-import com.devsuperpoo.reservahotel.model.entities.Reservation;
-import com.devsuperpoo.reservahotel.model.exceptions.DomainException;
+import com.devsuperpoo.excecoespersonalizadas.model.entities.Reservation;
+import com.devsuperpoo.excecoespersonalizadas.model.exceptions.DomainException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

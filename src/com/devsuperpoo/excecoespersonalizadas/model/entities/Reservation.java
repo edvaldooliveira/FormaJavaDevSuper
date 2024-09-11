@@ -1,7 +1,8 @@
-package com.devsuperpoo.reservahotel.model.entities;
+package com.devsuperpoo.excecoespersonalizadas.model.entities;
 
-import com.devsuperpoo.reservahotel.model.exceptions.DomainException;
-import jdk.jfr.internal.Utils;
+import com.devsuperpoo.excecoespersonalizadas.model.exceptions.DomainException;
+
+import java.util.concurrent.TimeUnit;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -40,8 +41,7 @@ public class Reservation {
 
     public long duration() {
         long diff = checkOut.getTime() - checkIn.getTime();
-        Utils.TimespanUnit TimeUnit;
-        return TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
+        return  TimeUnit.DAYS.convert(diff, TimeUnit.MILLISECONDS);
     }
 
     public void updateDates(Date checkIn, Date checkOut) {
