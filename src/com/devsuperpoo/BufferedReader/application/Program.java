@@ -23,8 +23,21 @@ public class Program {
             }
         }
         catch (IOException e){
+            System.out.println("error" + e.getMessage());
 
         }
-
+        finally {
+            try {
+                if (fr != null){
+                    fr.close();
+                }
+                if (br != null){
+                    br.close();
+                }
+            }
+            catch (IOException e){
+                System.out.println(e.getMessage());
+            }
+        }
     }
 }
