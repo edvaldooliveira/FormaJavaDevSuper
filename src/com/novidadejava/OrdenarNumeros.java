@@ -11,9 +11,9 @@ public class OrdenarNumeros {
         List<Integer> numeros = new ArrayList<>(Arrays.asList(10,7,3,15,3,1,9,4,12,5));
         System.out.println("\n Antes e Depois da ordenação:");
         System.out.println(" Ordenação tradicional = " + numeros);
-        Collections.sort(numeros, (a,b) -> a.compareTo(b) );
+        Collections.sort(numeros);
         System.out.println(" Ordenação com lambda  = " + numeros);
-        
+
 
     }
 }
