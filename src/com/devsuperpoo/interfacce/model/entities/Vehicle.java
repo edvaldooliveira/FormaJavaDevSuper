@@ -1,35 +1,21 @@
 package com.devsuperpoo.interfacce.model.entities;
 
 public class Vehicle {
-private Double basicPayment;
-private Double tax;
 
-public Vehicle(){
-}
-public Vehicle(double basicPayment, double tax){
-    this.basicPayment = basicPayment;
-    this.tax = tax;
-}
+    private String model;
 
-    public Double getBasicPayment() {
-        return basicPayment;
+    public Vehicle() {
     }
 
-    public void setBasicPayment(Double basicPayment) {
-        this.basicPayment = basicPayment;
+    public Vehicle(String model) {
+        this.model = model;
     }
 
-    public Double getTax() {
-        return tax;
+    public String getModel() {
+        return model;
     }
 
-    public void setTax(Double tax) {
-        this.tax = tax;
+    public void setModel(String model) {
+        this.model = model;
     }
-
-    public Double getTotalPayment(){
-    return getBasicPayment() + getTax();
-    }
-
-
 }
