@@ -1,8 +1,8 @@
 package com.devsuperpoo.interfacce.model.entities;
 
 public class Vehicle {
-public Double basicPayment;
-public Double tax;
+private Double basicPayment;
+private Double tax;
 
 public Vehicle(){
 }
@@ -30,4 +30,6 @@ public Vehicle(double basicPayment, double tax){
     public Double getTotalPayment(){
     return getBasicPayment() + getTax();
     }
+
+
 }
