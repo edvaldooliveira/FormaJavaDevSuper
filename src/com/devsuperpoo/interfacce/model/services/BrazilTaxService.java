@@ -1,5 +1,6 @@
 package com.devsuperpoo.interfacce.model.services;
 
+
 public class BrazilTaxService implements TaxService {
 
     public double tax(double amount){
