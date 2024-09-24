@@ -41,5 +41,5 @@ public class Contract {
         this.totalValue = totalValue;
     }
 
-   
+
 }
