@@ -2,7 +2,7 @@ package com.devsuperpoo.upcastingdowncasting.entities;
 
 public class Account {
     private Integer number;
-    private String holder; //titular
+    private String holder;
     protected double balance;
 
     public Account(){
@@ -34,7 +34,7 @@ public class Account {
         return balance;
     }
 
-    public final void withdraw(double amount){ //Retirar
+    public final void withdraw(double amount){
         balance -= amount + 5.0;
     }
 
