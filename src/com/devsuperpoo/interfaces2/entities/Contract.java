@@ -2,13 +2,15 @@ package com.devsuperpoo.interfaces2.entities;
 
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Contract {
 
+    private List<Installment> installments = new ArrayList<>();
     private Integer number;
     private LocalDate date;
     private Double totalValue;
-
 
 
     public Contract(Integer number, LocalDate date, Double totalValue) {
@@ -42,4 +44,9 @@ public class Contract {
     }
 
 
-}
+    public List<Installment> getInstallments() {
+        return installments;
+    }
+    }
+
+
