@@ -1,5 +1,10 @@
 package com.devsuperpoo.interfaces2.application;
 
+import com.devsuperpoo.interfaces2.entities.Contract;
+import com.devsuperpoo.interfaces2.entities.Installment;
+import com.devsuperpoo.interfaces2.services.ContractService;
+import com.devsuperpoo.interfaces2.services.PaypalService;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
@@ -23,6 +28,21 @@ public class Program {
         System.out.print("Valor do contrato: ");
         double totalValue = sc.nextDouble();
 
+        Contract obj = new Contract(number, date, totalValue);
+
+        System.out.print("Entre com o numero de parcelas: ");
+        int n = sc.nextInt();
+
+        ContractService contractService = new ContractService(new PaypalService());
+
+        contractService.processContract(obj, n);
+
+        System.out.println("Parcelas:");
+        for (Installment installment : obj.getInstallments()) {
+            System.out.println(installment);
+        }
+
+        sc.close();
 
     }
 }
