@@ -17,6 +17,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        //Formatar data é hora
         DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy : HH:mm");
 
         System.out.println("Entre os dados do contrato: ");
