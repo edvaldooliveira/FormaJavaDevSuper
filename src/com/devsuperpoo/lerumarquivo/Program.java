@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Program {
 
-
+//Ordenação
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         String path = "C:\\temp\\in.txt";
