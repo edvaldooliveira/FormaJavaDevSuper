@@ -28,7 +28,7 @@ public class PrintService<T> {
             System.out.print(", " + list.get(i));
 
         }
-        System.out.println("]\n");
+        System.out.println("]");
     }
 
 }
