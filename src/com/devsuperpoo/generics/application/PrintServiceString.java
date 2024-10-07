@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class PrintServiceString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //Paramentro com String 
         PrintService<String> ps = new PrintService();
 
         System.out.print("How many values? ");
