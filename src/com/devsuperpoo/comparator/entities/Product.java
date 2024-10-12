@@ -1,6 +1,5 @@
 package com.devsuperpoo.comparator.entities;
 
-
 public class Product {
 
     private String name;
