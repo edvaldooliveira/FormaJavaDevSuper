@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Program {
     public static void main(String[] args) {
-
+        //Lista de produtos
         List<Product> list = new ArrayList<>();
 
         list.add(new Product("Tv", 900.00));
