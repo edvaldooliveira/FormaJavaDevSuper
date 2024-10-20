@@ -1,5 +1,7 @@
 package com.devsuperpoo.interfaces5.services;
 
+import java.security.InvalidParameterException;
+
 public interface InterestService {
 
     double getInterestRate();
