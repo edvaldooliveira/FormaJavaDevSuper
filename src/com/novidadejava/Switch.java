@@ -3,6 +3,8 @@ package com.novidadejava;
 public class Switch {
     public static void main(String[] args) {
 
+        //Teste!
+
         var produto = "Edvaldo";
 
         System.out.println();
