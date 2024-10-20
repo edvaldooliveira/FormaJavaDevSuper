@@ -7,27 +7,23 @@ import java.util.Scanner;
 public class Program {
 
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        PrintService ps = new PrintService();
+
+        Scanner sc = new Scanner(System.in);
+
+        PrintService<Integer> ps = new PrintService<>();
 
         System.out.print("How many values? ");
-        int n = entrada.nextInt();
+        int n = sc.nextInt();
 
         for (int i = 0; i < n; i++) {
-            Integer value = entrada.nextInt();
+            Integer value = sc.nextInt();
             ps.addValue(value);
         }
 
-        System.out.println();
         ps.print();
-        System.out.println("First: " + ps.first());
+        Integer x = ps.first();
+        System.out.println("First: " + x);
+
+        sc.close();
     }
-
-
-
-
-
-
-
-
 }
