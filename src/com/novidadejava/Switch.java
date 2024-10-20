@@ -4,6 +4,7 @@ public class Switch {
     public static void main(String[] args) {
 
         //Teste!
+        System.out.println("Fim");
 
         var produto = "Edvaldo";
 
